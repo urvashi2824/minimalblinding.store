@@ -16,8 +16,8 @@ function ProductGrid() {
   const initialCategory = searchParams.get("category") || "All";
   const [activeCategory, setActiveCategory] = useState(initialCategory);
 
-  const filteredProducts = activeCategory === "All" 
-    ? products 
+  const filteredProducts = activeCategory === "All"
+    ? products
     : products.filter(p => p.category === activeCategory);
 
   return (
@@ -30,8 +30,8 @@ function ProductGrid() {
             onClick={() => setActiveCategory(cat)}
             className={cn(
               "px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 border",
-              activeCategory === cat 
-                ? "bg-brand-gold text-white border-brand-gold shadow-md" 
+              activeCategory === cat
+                ? "bg-brand-gold text-white border-brand-gold shadow-md"
                 : "bg-white text-gray-500 border-gray-100 hover:border-brand-gold hover:text-brand-gold"
             )}
           >
@@ -60,7 +60,7 @@ export default function ProductsPage() {
   return (
     <main className="min-h-screen bg-brand-beige">
       <Navbar />
-      
+
       {/* Header */}
       <header className="pt-32 pb-16 px-6 text-center">
         <span className="text-brand-gold text-xs font-bold uppercase tracking-[0.2em] mb-4 block">Our Collection</span>
@@ -74,7 +74,7 @@ export default function ProductsPage() {
       </section>
 
       <Footer />
-      <WhatsAppButton phoneNumber="910000000000" variant="floating" />
+      <WhatsAppButton phoneNumber="7878074724" variant="floating" />
     </main>
   );
 }

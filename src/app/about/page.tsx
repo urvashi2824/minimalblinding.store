@@ -10,7 +10,7 @@ export default function AboutPage() {
 
       <header className="pt-32 pb-16 px-6 text-center bg-white">
         <span className="text-brand-gold text-xs font-bold uppercase tracking-[0.2em] mb-4 block">Our Journey</span>
-        <h1 className="font-serif text-5xl md:text-6xl text-brand-charcoal">The minimalblinding Story</h1>
+        <h1 className="font-serif text-5xl md:text-6xl text-brand-charcoal">The minimalbling Story</h1>
       </header>
 
       <section className="py-24 px-6">
@@ -28,7 +28,7 @@ export default function AboutPage() {
             <div>
               <h2 className="font-serif text-3xl mb-6 text-brand-charcoal italic">Luxury shouldn't be a compromise.</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Founded with a vision to redefine everyday elegance, minimalblinding.store was born out of a simple need: jewelry that stays beautiful, even with constant wear.
+                Founded with a vision to redefine everyday elegance, minimalbling.store was born out of a simple need: jewelry that stays beautiful, even with constant wear.
               </p>
               <p className="text-gray-600 mb-6 leading-relaxed">
                 We specialize in anti-tarnish, waterproof, and skin-friendly jewelry that complements your dynamic lifestyle. Whether you're heading to the office, a workout, or a night out, our pieces are designed to shine through it all.
@@ -37,7 +37,7 @@ export default function AboutPage() {
                 "We believe every woman deserves to feel luxurious every single day, without breaking the bank."
               </p>
               
-              <WhatsAppButton phoneNumber="910000000000" label="Get in Touch" />
+              <WhatsAppButton phoneNumber="917878074724" label="Get in Touch" />
             </div>
           </div>
         </div>
@@ -73,7 +73,7 @@ export default function AboutPage() {
       </section>
 
       <Footer />
-      <WhatsAppButton phoneNumber="910000000000" variant="floating" />
+      <WhatsAppButton phoneNumber="917878074724" variant="floating" />
     </main>
   );
 }

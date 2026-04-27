@@ -18,12 +18,12 @@ export default function ContactPage() {
           <p className="text-gray-600 mb-10">We're here to help you find your perfect piece. The fastest way to reach us is through WhatsApp.</p>
 
           <div className="space-y-6">
-            <WhatsAppButton phoneNumber="910000000000" label="Chat on WhatsApp" className="w-full" />
+            <WhatsAppButton phoneNumber="917878074724" label="Chat on WhatsApp" className="w-full" />
 
             <div className="pt-10 border-t border-gray-100 grid grid-cols-1 gap-6">
               <div>
                 <h4 className="font-bold text-xs uppercase tracking-widest text-brand-gold mb-2">Email</h4>
-                <p className="text-gray-600">hello@minimalblinding.store</p>
+                <p className="text-gray-600">urvashikhanna08@gmail.com</p>
               </div>
               <div>
                 <h4 className="font-bold text-xs uppercase tracking-widest text-brand-gold mb-2">Location</h4>
@@ -35,7 +35,7 @@ export default function ContactPage() {
       </section>
 
       <Footer />
-      <WhatsAppButton phoneNumber="910000000000" variant="floating" />
+      <WhatsAppButton phoneNumber="917878074724" variant="floating" />
     </main>
   );
 }

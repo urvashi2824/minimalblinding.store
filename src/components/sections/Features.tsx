@@ -32,7 +32,7 @@ export default function Features() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <span className="text-brand-gold text-xs font-bold uppercase tracking-[0.2em] mb-4 block">Our Promise</span>
-          <h2 className="font-serif text-4xl md:text-5xl text-brand-charcoal">Why Choose minimalblinding<span className="text-brand-gold">.store</span>?</h2>
+          <h2 className="font-serif text-4xl md:text-5xl text-brand-charcoal">Why Choose minimalbling<span className="text-brand-gold">.store</span>?</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

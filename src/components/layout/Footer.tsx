@@ -7,9 +7,10 @@ export default function Footer() {
     <footer className="bg-brand-cream pt-20 pb-10 px-6 border-t border-gray-200">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
         <div className="col-span-1 md:col-span-1">
-          <Link href="/" className="font-serif text-2xl font-bold mb-6 block">
-            minimalblinding<span className="text-brand-gold">.store</span>
+          <Link href="/" className="font-serif text-2xl font-bold mb-2 block">
+            minimalbling<span className="text-brand-gold">.store</span>
           </Link>
+          <p className="text-brand-gold text-[10px] font-bold tracking-[0.2em] mb-6 uppercase">by Urvashi Khanna</p>
           <p className="text-gray-600 text-sm leading-relaxed mb-6">
             Elegant Anti-Tarnish Jewelry designed for the modern woman. Everyday luxury that stays as bright as you are.
           </p>
@@ -48,11 +49,11 @@ export default function Footer() {
           <ul className="flex flex-col gap-4 text-sm text-gray-600">
             <li className="flex items-center gap-3">
               <Mail size={16} className="text-brand-gold" />
-              <span>hello@minimalblinding.store</span>
+              <span>urvashikhanna08@gmail.com</span>
             </li>
             <li className="flex items-center gap-3">
               <Phone size={16} className="text-brand-gold" />
-              <span>+91 0000 000 000</span>
+              <span>+91 78780 74724</span>
             </li>
           </ul>
           <div className="mt-8 bg-white p-4 rounded-xl shadow-sm border border-gold/10">
@@ -63,7 +64,7 @@ export default function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto mt-20 pt-8 border-t border-gray-200 text-center text-xs text-gray-400">
-        <p>&copy; {new Date().getFullYear()} minimalblinding.store. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} minimalbling.store by Urvashi Khanna. All rights reserved.</p>
       </div>
     </footer>
   );

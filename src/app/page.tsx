@@ -15,7 +15,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Categories />
-      
+
       {/* Featured Products */}
       <section className="py-24 px-6 bg-white">
         <div className="max-w-7xl mx-auto">
@@ -23,7 +23,7 @@ export default function Home() {
             <span className="text-brand-gold text-xs font-bold uppercase tracking-[0.2em] mb-4 block">Trending Now</span>
             <h2 className="font-serif text-4xl md:text-5xl text-brand-charcoal">Featured Creations</h2>
           </div>
-          
+
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {featuredProducts.map((product) => (
               <ProductCard key={product.id} product={product} />
@@ -39,16 +39,16 @@ export default function Home() {
         <div className="max-w-3xl mx-auto">
           <h3 className="font-serif text-3xl mb-4 italic">“Jewelry that tells your story, without fading away.”</h3>
           <p className="text-white/60 mb-8 font-light tracking-widest uppercase text-xs">Join 5000+ happy customers</p>
-          <WhatsAppButton 
-            phoneNumber="910000000000" 
-            label="Order via WhatsApp" 
+          <WhatsAppButton
+            phoneNumber="7878074724"
+            label="Order via WhatsApp"
             className="bg-white text-brand-charcoal hover:bg-brand-gold hover:text-white"
           />
         </div>
       </section>
 
       <Footer />
-      <WhatsAppButton phoneNumber="910000000000" variant="floating" />
+      <WhatsAppButton phoneNumber="7878074724" variant="floating" />
     </main>
   );
 }

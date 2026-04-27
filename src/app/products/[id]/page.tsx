@@ -25,8 +25,8 @@ export default function ProductDetailsPage({ params }: { params: Promise<{ id: s
 
       <div className="pt-24 pb-12 px-6">
         <div className="max-w-7xl mx-auto">
-          <Link 
-            href="/products" 
+          <Link
+            href="/products"
             className="inline-flex items-center gap-2 text-sm text-gray-500 hover:text-brand-gold transition-colors mb-8"
           >
             <ChevronLeft size={16} />
@@ -35,7 +35,7 @@ export default function ProductDetailsPage({ params }: { params: Promise<{ id: s
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
             {/* Image Gallery */}
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               className="space-y-4"
@@ -70,7 +70,7 @@ export default function ProductDetailsPage({ params }: { params: Promise<{ id: s
                 {product.name}
               </h1>
               <p className="text-3xl font-bold text-brand-gold mb-8">₹{product.price}</p>
-              
+
               <div className="prose prose-sm text-gray-600 mb-10 leading-relaxed">
                 <p>{product.description}</p>
               </div>
@@ -93,7 +93,7 @@ export default function ProductDetailsPage({ params }: { params: Promise<{ id: s
 
               <div className="space-y-4">
                 <WhatsAppButton
-                  phoneNumber="910000000000"
+                  phoneNumber="7878074724"
                   message={`Hi, I want to order this jewelry item: ${product.name}`}
                   label="Buy on WhatsApp"
                   className="w-full py-4 text-lg shadow-lg"
@@ -120,7 +120,7 @@ export default function ProductDetailsPage({ params }: { params: Promise<{ id: s
       </div>
 
       <Footer />
-      <WhatsAppButton phoneNumber="910000000000" variant="floating" />
+      <WhatsAppButton phoneNumber="7878074724" variant="floating" />
     </main>
   );
 }

@@ -35,7 +35,7 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link href="/" className="font-serif text-2xl font-bold tracking-tight text-brand-charcoal">
-          minimalblinding<span className="text-brand-gold">.store</span>
+          minimalbling<span className="text-brand-gold">.store</span>
         </Link>
 
         {/* Desktop Menu */}

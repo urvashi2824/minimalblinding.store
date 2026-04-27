@@ -30,7 +30,7 @@ export default function ProductCard({ product }: ProductCardProps) {
             {product.category}
           </div>
         </div>
-        
+
         <div className="p-5">
           <h3 className="font-serif text-xl text-brand-charcoal mb-1 group-hover:text-brand-gold transition-colors">
             {product.name}
@@ -45,10 +45,10 @@ export default function ProductCard({ product }: ProductCardProps) {
           </div>
         </div>
       </Link>
-      
+
       <div className="px-5 pb-5">
         <WhatsAppButton
-          phoneNumber="910000000000" // Placeholder
+          phoneNumber="7878074724" // Placeholder
           message={`Hi, I want to order this jewelry item: ${product.name}`}
           label="Buy on WhatsApp"
           className="w-full text-sm py-2.5"

@@ -13,7 +13,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "minimalblinding.store | Elegant Anti-Tarnish Jewelry",
+  title: "minimalbling.store | Elegant Anti-Tarnish Jewelry",
   description: "Elegant Anti-Tarnish Jewelry for Everyday Shine. Waterproof, Affordable Luxury.",
 };
 
